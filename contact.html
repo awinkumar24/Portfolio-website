@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        .div1
+        {
+            background-color: seashell;
+            border: 2px solid blueviolet;
+            padding: 15px 20px;
+            font-size: large;
+        }
+        .con
+        {
+            color: rgb(252, 7, 7);
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <form action="#" target="_blank" method="post">
+            <h2 class="con">Contact Me</h2>
+            <!-- Label for getting Name using input type="text" -->
+            <label for="Name">Name</label><br>
+            <input type="text" name="Name" required placeholder="Enter Your Name"><br><br>
+            <!-- Label for getting Email ID using input type="email" -->
+            <label for="Email">Email</label><br>
+            <input type="email" name="Email" required placeholder="test@gmail.com"><br><br>
+            <!-- Lable for message using textarea -->
+            <label for="msg">Your Message</label><br>
+            <textarea name="msg" id="message" cols="50" rows="5"></textarea><br><br>
+            <button type="button" onclick="alert('Your Message has been submitted')">Submit</button>
+        </form>
+        <br><br>
+        <!-- Link for going to Home page -->
+        <div><a href="index.html" target="_parent">Back</a> </div>
+    </div>
+    
+</html>
